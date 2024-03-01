@@ -18,7 +18,7 @@ public class DbConn {
                     
             stmt.setString(1, "sauravhjdf");
             stmt.setString(2, "il.com");
-            stmt.setInt(3, 987654222);
+            stmt.setInt(3, 987654222); 
             stmt.executeUpdate();
             
             //stmt.executeUpdate(sql);

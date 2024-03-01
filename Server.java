@@ -13,7 +13,7 @@ public class Server {
         DataInputStream dis = new DataInputStream(s.getInputStream());
 
         // Type casting the UTF message into a string.
-        String message = (String) dis.readUTF();
+        String message = (String) dis.readUTF(); 
 
         int num = Integer.valueOf(message);
 
